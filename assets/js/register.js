@@ -38,5 +38,6 @@ registerForm.addEventListener('submit', async function (e) {
 		setTimeout(() => (location.href = 'login.html'), 1500);
 	} catch (err) {
 		regMessage.textContent = err;
+        registerForm.reset();
 	}
 });
