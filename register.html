@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Registrazione</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -14,45 +14,31 @@
 	</head>
 	<body>
 		<div class="container text-center">
-			<h1>async/await</h1>
+			<h1>CREA UN ACCOUNT</h1>
 		</div>
-
-		<h2><a href="login.html">DASHBOARD LOGIN</a></h2>
-
-		<div class="container">
-			<div class="spinner-border" id="spinner" role="status">
-				<span class="visually-hidden">Loading...</span>
-			</div>
-			<ul id="usersList"></ul>
-		</div>
-
-		<div class="container">
-			<h2 class="text-center">Crea nuovo utente</h2>
-			<form id="createUser">
+		<div class="container d-flex justify-content-center">
+            <h3 id="regMessage"></h3>
+			<form id="registerForm">
 				<div class="row">
-					<div class="col-4">
-						<label for="nameUser" class="form-label"
-							>Nome completo</label
-						>
+					<div class="col-12">
+						<label for="name" class="form-label">Nome</label>
 						<input
 							type="text"
-							id="nameUser"
-							name="nameUser"
+							id="name"
+							name="name"
 							class="form-control"
 						/>
 					</div>
-					<div class="col-4">
-						<label for="userName" class="form-label"
-							>Username</label
-						>
+					<div class="col-12">
+						<label for="surname" class="form-label">Cognome</label>
 						<input
 							type="text"
-							id="userName"
-							name="userName"
+							id="surname"
+							name="surname"
 							class="form-control"
 						/>
 					</div>
-					<div class="col-4">
+					<div class="col-12">
 						<label for="email" class="form-label">Email</label>
 						<input
 							type="email"
@@ -61,23 +47,32 @@
 							class="form-control"
 						/>
 					</div>
+					<div class="col-12">
+						<label for="password" class="form-label"
+							>Password</label
+						>
+						<input
+							type="password"
+							id="password"
+							name="password"
+							class="form-control"
+						/>
+					</div>
+					<button
+						type="submit"
+						class="btn btn-info rounded-4 mt-3 w-100"
+						id="register"
+					>
+						REGISTRATI
+					</button>
 				</div>
-				<button
-					type="submit"
-					id="sendUser"
-					class="btn btn-info rounded-4 mt-3"
-				>
-					INVIA
-				</button>
 			</form>
-			<h4 id="formResponse"></h4>
 		</div>
-
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
 			crossorigin="anonymous"
 		></script>
-		<script src="assets/js/script.js"></script>
+		<script src="assets/js/register.js"></script>
 	</body>
 </html>

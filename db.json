@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "email": "dadegi@gmail.com",
+      "password": "$2a$10$RVuUsNKXUzGA0iXk8osVUOAfKTpl94jIlXbZQ0tPAq99zzF9eUK7S",
+      "name": "Dario",
+      "surname": "Del Giudice",
+      "id": 1
+    },
+    {
+      "email": "mario@rossi.com",
+      "password": "$2a$10$ZEnAmJOcL0JYh2uHL3AUm.I2AuRi5kupRHpCz66utAwDi.MKoI8ry",
+      "name": "Mario",
+      "surname": "Rossi",
+      "id": 2
+    },
+    {
+      "email": "lorenzo@melis.com",
+      "password": "$2a$10$cxSWs8R2Vho2DsMN.SpBAehZwZsqbDTwr.kXyCwjjYj4lGq44aW2i",
+      "name": "Lorenzo",
+      "surname": "Melis",
+      "id": 3
+    },
+    {
+      "email": "angelo@cozzula.net",
+      "password": "$2a$10$6JqVrgr1NTE3jwvel5yMMev.IXS7lEoP4aHXZypNBjW3hXfS14yZu",
+      "name": "Angelo",
+      "surname": "Cozzula",
+      "id": 4
+    },
+    {
+      "email": "aldo@bianchi.com",
+      "password": "$2a$10$2WFvirXcq1PqAXsl9Ae67efgj/U.Y3BG6B23epfNRmOia5DabK75.",
+      "name": "Aldo",
+      "surname": "Bianchi",
+      "id": 5
+    },
+    {
+      "email": "nicola@verdi.it",
+      "password": "$2a$10$DofdSuFDzCnR9UQH4HucneoybD1bTDXBXoxIyAr0vMTPVj82Ar8QS",
+      "name": "Nicola",
+      "surname": "Verdi",
+      "id": 6
+    }
+  ]
+}
