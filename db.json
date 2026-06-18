@@ -76,6 +76,34 @@
       "name": "Ci",
       "surname": "Riesco",
       "id": 11
+    },
+    {
+      "email": "mara@cordua.it",
+      "password": "$2a$10$YAmdaLGUOwafXb3w5yXr9uZavSP9evRwq4TW/gArzPsza80jmFqGq",
+      "name": "Mara",
+      "surname": "Cordua",
+      "id": 12
+    },
+    {
+      "email": "pippo@pippo.com",
+      "password": "$2a$10$/DUZPEBFlkvA7axcPOeVxuIkMi15eU434ALBdN4iKKpVMTuNqFVB.",
+      "name": "Pippo",
+      "surname": "pippo",
+      "id": 13
+    },
+    {
+      "email": "paperone@paperopoli.net",
+      "password": "$2a$10$AgSyTH1kbSR2.A2KIFwhSefQb6SmFDUrdS2kHcLeZbjS8V3Ucf0GG",
+      "name": "Zio",
+      "surname": "Paperone",
+      "id": 14
+    },
+    {
+      "email": "fabrizio@fabrizio.it",
+      "password": "$2a$10$iP5DZpcqmRMkGP/nQogT5uehsFw1lKRloe3hkwhunjokSWTJxQqSy",
+      "name": "Fabrizio",
+      "surname": "Fabrizio",
+      "id": 15
     }
   ]
 }
