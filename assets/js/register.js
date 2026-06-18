@@ -33,11 +33,9 @@ registerForm.addEventListener('submit', async function (e) {
 			throw new Error('Email già presente');
 		}
 		registerForm.style.display = 'none';
-		setTimeout(() => {
-			regMessage.textContent =
-				'Registrazione completata, reindirizzamento al login...';
-			(location.href('login.html'), 2000);
-		});
+		regMessage.textContent =
+			'Registrazione completata, reindirizzamento al login...';
+		setTimeout(() => (location.href = 'login.html'), 1500);
 	} catch (err) {
 		regMessage.textContent = err;
 	}

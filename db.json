@@ -41,6 +41,41 @@
       "name": "Nicola",
       "surname": "Verdi",
       "id": 6
+    },
+    {
+      "email": "antonio@neri.com",
+      "password": "$2a$10$ZPo975A9sYacQH1Q5RSpMenrOZmwHjvEgl.4snoJ5ZQjsLq6B82PO",
+      "name": "Antonio",
+      "surname": "Neri",
+      "id": 7
+    },
+    {
+      "email": "giovanni@rossi.org",
+      "password": "$2a$10$fiCH0TbTjvXpPqX0LRk9cuz.OCp3uApZZlLGGuQYc59KeFvGnvAvq",
+      "name": "Giovanni",
+      "surname": "Rossi",
+      "id": 8
+    },
+    {
+      "email": "pa@erspo.it",
+      "password": "$2a$10$495Jx9mq14veOuqLciTez.SRDsFUfyg7DY1J7odigWYzs4D5gyHnC",
+      "name": "Pasquale",
+      "surname": "Esposito",
+      "id": 9
+    },
+    {
+      "email": "gas@pape.it",
+      "password": "$2a$10$1VrG.X1Eopl/3xVlL17Xuu.oWOxcttY8vciPzpdZhGuTZdgnfdrRK",
+      "name": "Gastone",
+      "surname": "Paperone",
+      "id": 10
+    },
+    {
+      "email": "ci@riesco.code",
+      "password": "$2a$10$kSAU8TA/h7zvtewKyWb4.eC9rtyJmQoO5JZ6zB/bBGlsGA6TBdEVq",
+      "name": "Ci",
+      "surname": "Riesco",
+      "id": 11
     }
   ]
 }
